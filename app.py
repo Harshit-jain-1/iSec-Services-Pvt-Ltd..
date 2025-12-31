@@ -188,10 +188,10 @@
       "cell_type": "code",
       "source": [
         "# ---------------- CONFIG ---------------- #\n",
-        "os.environ[\"PINECONE_API_KEY\"] = \"pcsk_zYZjb_9bpsie48XH9yGMGWc9FaSQfzhj8BKZdeqd6BrcN6T4R9AZjYbbavmGvihuEmduy\" # replace with your key\n",
+        "os.environ[\"PINECONE_API_KEY\"] = \"api key\" # replace with your key\n",
         "PINECONE_API_KEY = os.getenv(\"PINECONE_API_KEY\")\n",
         "INDEX_NAME = \"vulnerability-index\"\n",
-        "LLAMA_MODEL_PATH = \"/content/sample_data/llama_models/llama-2-7b-chat.Q4_K_M.gguf\"  # Upload your GGUF model to Colab\n",
+        "LLAMA_MODEL_PATH = \"/content/sample_data/llama_models/llama-2-7b-chat.Q4_K_M.gguf\"  # Upload your GGUF model to Colab and by your model path\n",
         "EMBED_DIM = 4096  # LLaMA embedding size"
       ],
       "metadata": {
