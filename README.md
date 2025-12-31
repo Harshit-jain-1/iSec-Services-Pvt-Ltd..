@@ -14,7 +14,7 @@ and generate structured security vulnerability reports.
 - To demonstrate understanding of backend systems, LLM integration, and security concepts
 
 ## Architecture
-The system follows a Retrieval-Augmented Generation (RAG) architecture:
+- The system follows a Retrieval-Augmented Generation (RAG) architecture:
 
 User Input
    ↓
@@ -65,7 +65,7 @@ This configuration ensures:
 - Download the GGUF model from Hugging Face:
 . https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF
   
-_ Select and download the following file:
+- Select and download the following file:
 . llama-2-7b-chat.Q4_K_M.gguf
   
 - Place the downloaded model file in the project root directory.
@@ -87,7 +87,7 @@ _ Select and download the following file:
 - Correct vulnerability detection
 - Accurate severity assessment
 - Meaningful remediation recommendations
-- 
+  
 ##  Structured Vulnerability Report
 The final output is a structured JSON object:
 
